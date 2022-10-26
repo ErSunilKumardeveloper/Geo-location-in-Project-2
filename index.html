@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- Drak mode-->
+        <script src="index.js"></script>
         <style>
             body{
                 background-color:white;
@@ -90,7 +91,15 @@
             </div id="search">
                     <button id="search"><b>Search</b>
                     </button>
+                    <div class="weather">
+                        <h2 style="color:white; font-weight: bold;"> Weather</h2>
+                        <button class="btn btn-success" onClick="geolocation()">Get Location</button></br>
+                        <h3 id="out"></h3>
+                        <h3 id="weatherOut"></h3>
+                        
+                    </div>
             </div>
+            
         </div>
         <div id="menubar">
             <div>
